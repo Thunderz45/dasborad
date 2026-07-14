@@ -1073,7 +1073,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Load CSV
-    Papa.parse('../Marketing_Dashboard.csv', {
+    Papa.parse('Marketing_Dashboard.csv', {
         download: true,
         header: true,
         dynamicTyping: true,
